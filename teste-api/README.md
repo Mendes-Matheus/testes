@@ -63,7 +63,7 @@ frontend/
 3. Instale as dependências:
    
    ```bash
-   pip install -r requirements.txt
+   pip install flask pandas flask-cors
    ```
 
 4. Certifique-se de que o arquivo `Relatorio_cadop.csv` está dentro da pasta `data/`.
