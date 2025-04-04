@@ -1,0 +1,39 @@
+# Arquivos do ambiente virtual do Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.swp
+
+# Configurações do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos do backend
+backend/.env                       # Arquivo de variáveis de ambiente (se houver)
+backend/.vscode/                   
+
+# Dependências do Python
+backend/.mypy_cache/
+backend/.pytest_cache/
+backend/.tox/
+backend/.coverage
+backend/htmlcov/
+
+# Dependências do Node.js (Frontend)
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.output/
+frontend/.nuxt/
+
+# Arquivos do editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
